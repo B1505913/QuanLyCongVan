@@ -1,0 +1,389 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/* chiều cao của thẻ input */
+.form-control{
+	height: 25px;
+}
+
+.menu{
+    background:  #3D76AB;
+    color: white;
+    padding: 1px;
+    border-color: #3D76AB;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    border-radius: 0;
+
+}
+
+.logo
+{
+	position: absolute;
+	top:4%;
+	left: 4%;
+	
+}
+
+.tieudedn{
+	position: absolute;
+	top: 6%;
+	right:3%;
+	font-weight: 900;
+	color: white;
+}
+
+.navbar-brand h4{
+	color: white;
+	font-weight: 900;
+}
+
+.navbar-brand h5{
+	color: #a9f30a;
+	font-weight: 900;
+}
+
+/* css cho button dang nhap trong form */
+.col-md-4.khungdn button{
+	margin-bottom: 10px;
+	padding: 1px 3px;
+	border-radius: 6px;
+	background: #156cca;
+	border-color: #156cca;
+}
+
+.btn-primary.dangnhap{
+    padding: 10px;
+}
+
+.trang{
+    padding: 260px;
+    background: white;
+
+}
+
+.footer{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+ /* css dung9 cung71 cho form dang nhap */
+.nenform{
+	position: absolute;
+	top: 20%;
+	right: 0%;
+}
+
+.nenform h3{
+	text-align: center;
+}
+
+/* css cho the input trong form dang nhap */
+input#name {
+	padding: 0px;
+}
+
+input#pwd{
+	padding: 0px;
+}
+/* css cho form dang nhap */
+.col-md-4.khungdn {
+	border: 1px solid #00abff30;
+	border-top: 3px solid #008fff2b;
+	background: #e2e2e2a3;
+	box-shadow: 1px 4px 19px;  /* tạo bóng */
+	z-index: 3;
+   opacity: 0;
+   /* de ẩn phần này: dung jquery xử lý; */
+   visibility: hidden;
+   transition: 0.8s;
+   transform: scale(0.1);
+	
+}
+
+.col-md-4.khungdn.hienra{
+	opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+
+.col-md-4.khungdn button{
+	margin-bottom: 10px;
+}
+
+
+
+/* css cho nut dang nhap */
+button.btn-primary.tung {
+	position: absolute;
+	top: 26px;
+	right:0px;
+	margin-right: 120px;
+	padding: 4px 10px;
+	background: #00598000;
+	border: none;
+	cursor: pointer;
+	font-size: 29px;
+}
+
+button.btn-primary.tung:hover {
+	border: none;
+}
+
+
+
+
+
+.momo{
+    background: #00000075;
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index:1;
+    opacity: 0;
+    visibility: hidden;;
+}
+
+.momo.momodira{
+    opacity: 1;
+    visibility: visible;
+}
+
+.footer span{
+	color: red;
+}
+
+
+/* css cho index2.html --------------------------------------------*/
+
+
+/* trang2 */
+.trang2{
+	padding: 10px 0 290px 0;
+}
+
+/* css cho nut dang xuat */
+i.fas.fa-users.nutdangxuat {
+	position:absolute;
+	top: 30px;
+	right:0px;
+	margin-right: 120px;
+	padding:6px 10px;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
+}
+
+
+
+.trang2 h6.dn{
+	font-weight: 900;
+
+}
+.trang2 h6.quyen{
+	font-weight: 900;
+}
+
+.trang2 span{
+	color: #009aff;
+}
+
+/* css cho button sideUp */
+
+button.btn-default1.nutSildeup{
+	padding: 9px 3px;
+	background: #00a6ffa8;
+	border-color:#80808000;
+	border-radius: 4px;
+	width: 100%;
+	margin-bottom: 1px;
+	
+}
+
+button.btn-default1.nutSildeup:hover{
+	background: #00a6ff;
+	border-color:#80808000;	
+}
+
+/* css xóa gạch dưới link list group cột trái */
+a.nutlistgr{
+	text-decoration: none;
+}
+
+
+/* css QuanLyCV.html ---------------------------------------------------*/
+
+/* css dinh dang phan trang */
+.pagination>li>a, .pagination>li>span{
+	margin-left: 6px;
+	background: #57C4FF;
+	color: black;
+	border-radius: 9px;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover{
+	background: #57e3ff;	
+}
+
+/* css cho nut them moi
+ */
+button.dkvc{
+	padding: 1px;
+	border-radius: 4px;
+	border: none;
+	background: #09561f33;
+	
+}
+
+
+a.chuthemmoi{
+	text-decoration: none;
+	padding-left: 5px;
+
+}
+
+/* css cho nut xoa nhieu */
+button.xoanhieu{
+	padding: 9px 10px;
+	background:  #57C4FF;
+	border: none;
+	border-radius: 5px;
+
+}
+
+i.fas.fa-search.nuttim2{
+	font-size: 18px;
+	color: #080808;
+}
+
+button.nuttim{
+	background: #f2dedef2;
+	border: none;
+	padding: 3px 12px;
+}
+
+
+/* css cho input tỉm kiếm */
+.col-xs-6.col-sm-6.col-md-6.col-lg-6.tkcv_cotphai input[type="text"]{
+	border: 1px solid #0000008c;
+	padding: 2px 1px;
+}
+
+/* css cho khoang cach giua form va nut tìm kim */
+.pull-right.tkcv_cotphai{
+	margin-bottom: 29px;
+}
+
+h3.tieudeQLCV{
+	margin-bottom: 20px;
+	padding-left: 15px;
+	font-weight:900;
+}
+
+/* css dkycongvan .......................................................*/
+
+/* css khoảng cách giữa form và ô tìm keim */
+/*.col-xs-6.col-sm-6.col-md-6.col-lg-6.nutdkcvcottrai{
+	padding-bottom: 40px;
+}
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6.pull-right.tkcv_cotphai{
+	padding-bottom: 40px;
+}
+
+
+.col-xs-8.col-sm-8.col-md-8.col-lg-8.canhleformdkcv{
+	padding-top: 30px;
+}
+*/
+h3.tieude_dkcv{
+	font-weight: 900;
+	padding-left: 40px;
+}
+
+button.btn.btn-default.pull-right.nutdk_cv{
+	background:#57C4FF;
+	border: none;
+}
+
+.pull-right.phantrang{
+	margin-top: 30px;
+}
+
+
+/* nut submit cho form dang ky cong van */
+button.btn.btn-default.pull-right.nutdk_cv{
+	background:#57C4FF;
+	border: none;
+	margin-left: 4px;
+	padding: 5px 6px;
+	margin-top:50px;
+
+}
+
+
+button.btn.btn-default.pull-right.nuthuydkcv{
+	background:#57C4FF;
+	border: none;
+	padding: 5px 15px;
+	margin-top:50px;
+
+}
+
+/* css cho the input form dang ky cv */
+.form-control{
+	border: 1px solid #00000069;
+	padding: 0px 5px;
+}
+
+.form-control:hover{
+	border: 1px solid #000000f5;
+
+}
+
+input[type=file]{
+	width:23%;
+	padding: 4px 5px;
+	height: 33px;
+	
+}
+
+
+/* css  dung cứng cho form ghi ý kiến */
+.form_ghiykien{
+	position: absolute;
+	top: 19%;
+	left: 30%;
+}
+
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6.form_ghiykien{
+	background:#CCC;
+	padding: 15px 20px 15px 10px;
+	color: black;
+	z-index: 3;
+   opacity: 0;
+   /* de ẩn phần này: dung jquery xử lý; */
+   visibility: hidden;
+   transition: 0.8s;
+   transform: scale(0.1);
+	
+}
+
+table tr td{
+	text-align: center;
+}
+.col-xs-6.col-sm-6.col-md-6.col-lg-6.form_ghiykien.hienra{
+	opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
